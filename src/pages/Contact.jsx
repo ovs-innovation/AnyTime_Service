@@ -54,7 +54,7 @@ export default function Contact() {
 
   const onSubmit = async (data) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/contact', data);
+      const response = await axios.post('/api/contact', data);
       if (response.data.success) {
         toast.success(response.data.message || 'Message sent successfully!');
         setSubmitted(true);
