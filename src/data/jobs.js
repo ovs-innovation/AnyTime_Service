@@ -1,0 +1,73 @@
+// ============================================
+// JOBS / CAREERS DATA
+// ============================================
+export const jobs = [
+  {
+    id: 1,
+    title: 'Security Supervisor',
+    department: 'Security',
+    location: 'Mumbai',
+    type: 'Full-time',
+    experience: '3–5 years',
+    salary: '₹25,000 – ₹35,000/month',
+    description: 'Supervise a team of security guards, ensure compliance with protocols, and handle incident reporting.',
+    requirements: ['Ex-army/police preferred', 'Class 10 pass', 'Physically fit', 'Good communication'],
+  },
+  {
+    id: 2,
+    title: 'Housekeeping Team Leader',
+    department: 'Housekeeping',
+    location: 'Pune',
+    type: 'Full-time',
+    experience: '2–4 years',
+    salary: '₹18,000 – ₹25,000/month',
+    description: 'Lead the housekeeping team at a corporate client site, ensure hygiene standards are maintained.',
+    requirements: ['ITI or equivalent', '2 years housekeeping exp', 'Team management skills'],
+  },
+  {
+    id: 3,
+    title: 'HVAC Technician',
+    department: 'Technical',
+    location: 'Bangalore',
+    type: 'Full-time',
+    experience: '2–5 years',
+    salary: '₹30,000 – ₹45,000/month',
+    description: 'Maintain and service HVAC systems at large commercial facilities.',
+    requirements: ['ITI/Diploma in Mechanical', 'HVAC certification preferred', 'Experience with chillers/AHU'],
+  },
+  {
+    id: 4,
+    title: 'HR Executive',
+    department: 'Human Resources',
+    location: 'Delhi (HQ)',
+    type: 'Full-time',
+    experience: '1–3 years',
+    salary: '₹20,000 – ₹30,000/month',
+    description: 'Handle recruitment, onboarding, and employee relations for our manpower verticals.',
+    requirements: ['MBA/BBA HR', 'Bulk hiring experience', 'MS Office proficiency'],
+  },
+  {
+    id: 5,
+    title: 'Business Development Executive',
+    department: 'Sales',
+    location: 'Chennai',
+    type: 'Full-time',
+    experience: '2–4 years',
+    salary: '₹25,000 – ₹40,000 + Incentives',
+    description: 'Identify and onboard new corporate clients for manpower and facility management services.',
+    requirements: ['B2B sales experience', 'Excellent communication', 'Target-oriented mindset'],
+  },
+  {
+    id: 6,
+    title: 'Warehouse Supervisor',
+    department: 'Operations',
+    location: 'Hyderabad',
+    type: 'Full-time',
+    experience: '3–6 years',
+    salary: '₹28,000 – ₹38,000/month',
+    description: 'Oversee warehouse operations, manage labour teams, and ensure safety compliance.',
+    requirements: ['Graduate preferred', 'WMS knowledge', 'Strong leadership'],
+  },
+]
+
+export const departments = ['All', 'Security', 'Housekeeping', 'Technical', 'Human Resources', 'Sales', 'Operations']
