@@ -1,4 +1,4 @@
-import signBordImg from '@assets/sign Board.webp'
+import signBordImg from '@assets/sign board.webp'
 
 
 // Gallery categories from the existing Anytime Services website

@@ -3,7 +3,7 @@ import printingImg from '@assets/printing.webp'
 import graphicImg from '@assets/graphic.jpg'
 import iTHardwareImg from '@assets/Hardware-Software-Support.jpg'
 import customMImg from '@assets/custom merchandise.webp'
-import signBordImg from '@assets/sign Board.webp'
+import signBordImg from '@assets/sign board.webp'
 
 
 

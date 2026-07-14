@@ -1,6 +1,6 @@
 import printingImg from '@assets/printing.webp'
 import graphicImg from '@assets/graphic.jpg'
-import signBordImg from '@assets/sign Board.webp'
+import signBordImg from '@assets/sign board.webp'
 
 export const portfolioCategories = [
   'All',
