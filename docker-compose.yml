@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: anytime_ui
+    restart: unless-stopped
+    ports:
+      - "3090:80"
